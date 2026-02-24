@@ -267,8 +267,8 @@ predict_image(model, image_index=55, dataset=test_dataset)
 
 <img width="407" height="462" alt="SAMOPLE EX4" src="https://github.com/user-attachments/assets/4177164f-9698-4152-a5ff-dfae3c4e8f71" />
 
+<img width="400" height="483" alt="EXP4 SAMPLE" src="https://github.com/user-attachments/assets/94bdf709-a26c-4a97-94e2-149e47f42b71" />
 
-<img width="407" height="462" alt="SAMOPLE EX4" src="https://github.com/user-attachments/assets/b61d3353-09ff-44a1-a62d-4c846976c422" />
 
 
 ## RESULT
