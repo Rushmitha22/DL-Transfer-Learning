@@ -152,8 +152,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
         print(f'Epoch [{epoch+1}/{num_epochs}], Train Loss: {train_losses[-1]:.4f}, Validation Loss: {val_losses[-1]:.4f}')
 
     # Plot training and validation loss
-    print("Name: ABISHA LINU L")
-    print("Register Number: 212224040011")
+    print("Name: RUSHMITHA  R ")
+    print("Register Number: 212224040281")
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs + 1), train_losses, label='Train Loss', marker='o')
     plt.plot(range(1, num_epochs + 1), val_losses, label='Validation Loss', marker='s')
@@ -197,8 +197,8 @@ def test_model(model, test_loader):
     # Compute confusion matrix
     class_names=['Negative','Positive']
     cm = confusion_matrix(all_labels, all_preds)
-    print("Name: ABISHA LINU L")
-    print("Register Number: 212224040011")
+    print("Name: RUSHMITHA  R")
+    print("Register Number: 212224040281")
     plt.figure(figsize=(6,5))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=train_dataset.classes, yticklabels=train_dataset.classes)
     plt.xlabel('Predicted')
@@ -207,8 +207,8 @@ def test_model(model, test_loader):
     plt.show()
 
     # Print classification report
-    print("Name: ABISHA LINU L")
-    print("Register Number: 212224040011")
+    print("Name: RUSHMITHA  R")
+    print("Register Number: 212224040281")
     print("Classification Report:")
     print(classification_report(all_labels, all_preds, target_names=train_dataset.classes))
 
