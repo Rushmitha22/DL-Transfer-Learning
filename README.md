@@ -6,6 +6,14 @@
 ## AIM : 
 To develop an image classification model using transfer learning with VGG19 architecture for the given dataset.
 
+## Problem statement :
+Transfer Learning is a technique where a pre-trained model (trained on a large dataset such as ImageNet) is used as a starting point for a different but related task. It leverages learned features from the original task to improve learning efficiency and performance on the new task.
+
+VGG19 is a convolutional neural network with 19 layers. It consists of multiple convolutional layers for feature extraction, followed by fully connected layers for classification. In transfer learning, we typically freeze the convolutional layers and retrain the final fully connected layers to match our dataset.
+
+## Neural network diagram :
+<img width="672" height="757" alt="560039563-051b9b7c-fefa-488b-8981-538492c73625" src="https://github.com/user-attachments/assets/70772367-aa74-474f-8911-cc3f6ceb1eb0" />
+
 
 
 ## DESIGN STEPS
